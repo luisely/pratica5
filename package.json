@@ -1,0 +1,14 @@
+{
+  "name": "pratica5",
+  "version": "1.0.0",
+  "main": "teste.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "azure-iot-device-mqtt": "^1.16.3"
+  }
+}
