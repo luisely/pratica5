@@ -51,7 +51,7 @@ setInterval(function(){
 }, 1000);
 
 
-//az iot hub consumer-group create --hub-name EstacioPratica --name Consumidor1
+//az iot hub consumer-group create --hub-name EstacioPratica --name cons1
 
 //az iot hub show-connection-string --hub-name EstacioPratica --policy-name service
 
