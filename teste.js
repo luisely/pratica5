@@ -11,7 +11,7 @@
 // an environment variable to make it available to your application
 // or use an HSM or an x509 certificate.
 // https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-security
-var connectionString = 'HostName=EstacioPratica.azure-devices.net;DeviceId=device1;SharedAccessKey=PQojs3LivNoRa/nTqF0+9oOtE6slwkZR31Bv1UdpCOE=';
+var connectionString = process.env.STRING;
 
 // Using the Node.js Device SDK for IoT Hub:
 //   https://github.com/Azure/azure-iot-sdk-node
@@ -51,10 +51,3 @@ setInterval(function(){
 }, 1000);
 
 
-//az iot hub consumer-group create --hub-name EstacioPratica --name cons1
-
-//az iot hub show-connection-string --hub-name EstacioPratica --policy-name service
-
-//"HostName=EstacioPratica.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=zu8XnyUgBR7b1Frz9cZ1H0pMoDZ0kxKwvAIoTC2gDGc="
-
-//az appservice plan create --name apppratica5 --resource-group estacio --sku FREE
